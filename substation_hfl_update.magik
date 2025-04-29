@@ -2,7 +2,6 @@
 $
 _block
 	##Added 1st changes for git tut
-	##Added changes for understand in mybranch1
 	##Added changes to hotfix branch
 	write("++++++++++++++ 1st set Substation HFL Update Started ++++++++++++++++++++++++++")
 	l_sub << v(:electric).collection(:sub_substation)
