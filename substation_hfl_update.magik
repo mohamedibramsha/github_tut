@@ -2,9 +2,7 @@
 $
 _block
 	##Added 1st changes for git tut
-	##Added 2nd changes to hotfix branch
 	write("++++++++++++++ 1st set Substation HFL Update Started ++++++++++++++++++++++++++")
-	##Ended 2nd changes to hotfix branch
 	l_sub << v(:electric).collection(:sub_substation)
 	sub_id << rope.new_with(48617337,49287918,49618572,56704253,57426275,49379163,51243675,51331173,49241723,49303262,49910671,57787020,49111344,47109760,50043031,51332791,48329846,50929754,48767110,49286634,49289490,48767942,50128329,48968197,49389334,48238054,49314288,49952540,50832517,49620256,48080197,51505599,50347727,50786827,48857266,47111490,49404923,51180185,56937673,47104057,58335095,48804617,111907540,47184760,48877038,48359009,49910671,50788567,48858663,48195702)	
 	rp_rec << rope.new()
@@ -16,6 +14,5 @@ _block
 	dataset_transaction.new(rp_rec).run()
 
 	write("++++++++++++++ 1st set Substation HFL Update Completed  ++++++++++++++++++++++++++")
-	##changes ended in mybranch1
 _endblock
 $
