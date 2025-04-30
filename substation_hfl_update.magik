@@ -9,6 +9,7 @@ _block
 	rp_rec << rope.new()
 	pl << property_list.new_with(:cgis_hfl_value,"FL > 25kA")
 	##Ended changes to hotfix branch
+	##Again changes in branch1
 	_for i _over sub_id.fast_elements() 
 	_loop
 		rp_rec.add(record_transaction.new_update(l_sub.at(i),pl))
