@@ -15,7 +15,7 @@ _block
 		rp_rec.add(record_transaction.new_update(l_sub.at(i),pl))
 	_endloop
 	dataset_transaction.new(rp_rec).run()
-
+	##Adding for push command
 	write("++++++++++++++ 1st set Substation HFL Update Completed  ++++++++++++++++++++++++++")
 _endblock
 $
